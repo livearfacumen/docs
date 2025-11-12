@@ -29,6 +29,13 @@
             ]
           },
           {
+            "group": "Knowledge Base",
+            "pages": [
+              "essentials/KnowledgeBase/Artists_Photographers",
+              "essentials/navigation"
+            ]
+          },
+          {
             "group": "Writing content",
             "pages": [
               "essentials/markdown",
