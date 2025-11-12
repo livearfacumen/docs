@@ -32,9 +32,8 @@
             "group": "Knowledge Base",
             "pages": [
               "essentials/KnowledgeBase",
-              "essentials/Artists_Photographers",
-              "essentials/Framers",
-              "essentials/navigation"
+              "essentials/KnowledgeBase/Artists_Photographers",
+              "essentials/KnowledgeBase/Framers"
             ]
           },
           {
