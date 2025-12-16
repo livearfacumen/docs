@@ -69,8 +69,8 @@
     }
   },
   "logo": {
-    "light": "https://livearf.com/wp-content/uploads/2020/03/cropped-livearf-logo-new9.jpg",
-    "dark": "/logo/dark.svg"
+    "light": "/logo/livearf_logo.png",
+    "dark": "/logo/livearf_logo.png"
   },
   "navbar": {
     "links": [
