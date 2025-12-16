@@ -69,9 +69,8 @@
     }
   },
   "logo": {
-    "light": "/logo/livearf_logo.png",
-    "dark": "/logo/livearf_logo.png",
-    "height": 40
+    "light": "https://cdn.shopify.com/s/files/1/0941/5023/0317/files/livearf_logo.png",
+    "dark": "https://cdn.shopify.com/s/files/1/0941/5023/0317/files/livearf_logo.png"
   },
   "navbar": {
     "links": [
