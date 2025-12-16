@@ -9,7 +9,10 @@
   },
   "favicon": "/favicon.ico",
   "navigation": {
-    "groups": [
+    "tabs": [
+      {
+        "tab": "Guide",
+        "groups": [
           {
             "group": "Getting started",
             "pages": [
@@ -28,9 +31,8 @@
           {
             "group": "Knowledge Base",
             "pages": [
-              "essentials/KnowledgeBase",
-              "essentials/Artists_Photographers",
-              "essentials/navigation"
+              "essentials/KnowledgeBase/Artists_Photographers",
+              "essentials/KnowledgeBase/Framers"
             ]
           },
           {
@@ -60,7 +62,8 @@
             ]
           }
         ]
-      },
+      }
+    ],
     "global": {
       "anchors": []
     }
