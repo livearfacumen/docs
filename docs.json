@@ -100,20 +100,20 @@
     }
   },
   "logo": {
-    "light": "/logo/light.svg",
+    "light": "https://livearf.com/wp-content/uploads/2020/03/cropped-livearf-logo-new9.jpg",
     "dark": "/logo/dark.svg"
   },
   "navbar": {
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "mailto:cs@livearf.com"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Open Shopify app",
+      "href": "https://apps.shopify.com/livearf"
     }
   },
   "contextual": {
