@@ -8,66 +8,61 @@
     "dark": "#15803D"
   },
   "favicon": "/favicon.ico",
-  "navigation": {
-    "tabs": [
-      {
-        "tab": "Guide",
-        "groups": [
-          {
-            "group": "Getting started",
-            "pages": [
-              "index",
-              "quickstart",
-              "development"
-            ]
-          },
-          {
-            "group": "Customization",
-            "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
-          },
-          {
-            "group": "Knowledge Base",
-            "pages": [
-              "essentials/KnowledgeBase/Artists_Photographers",
-              "essentials/KnowledgeBase/Framers"
-            ]
-          },
-          {
-            "group": "Writing content",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "ARTIST & PHOTOGRAPHERS",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
-          }
-        ]
-      }
-    ],
-    "global": {
-      "anchors": []
+   "navigation": {
+  "groups": [
+    {
+      "group": "Getting started",
+      "pages": [
+        "index",
+        "quickstart",
+        "development"
+      ]
+    },
+    {
+      "group": "Customization",
+      "pages": [
+        "essentials/settings",
+        "essentials/navigation"
+      ]
+    },
+    {
+      "group": "Knowledge Base",
+      "pages": [
+        "essentials/KnowledgeBase/Artists_Photographers",
+        "essentials/KnowledgeBase/Framers"
+      ]
+    },
+    {
+      "group": "Writing content",
+      "pages": [
+        "essentials/markdown",
+        "essentials/code",
+        "essentials/images",
+        "essentials/reusable-snippets"
+      ]
+    },
+    {
+      "group": "ARTIST & PHOTOGRAPHERS",
+      "pages": [
+        "essentials/markdown",
+        "essentials/code",
+        "essentials/images",
+        "essentials/reusable-snippets"
+      ]
+    },
+    {
+      "group": "AI tools",
+      "pages": [
+        "ai-tools/cursor",
+        "ai-tools/claude-code",
+        "ai-tools/windsurf"
+      ]
     }
-  },
+  ],
+  "global": {
+    "anchors": []
+  }
+},
   "logo": {
     "light": "https://cdn.shopify.com/s/files/1/0941/5023/0317/files/livearf_logo.png",
     "dark": "https://cdn.shopify.com/s/files/1/0941/5023/0317/files/livearf_logo.png"
