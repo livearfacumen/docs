@@ -1,0 +1,198 @@
+---
+title: "Upload Component"
+description: "Let customers upload their own photos and visualise them with your frames and mat options before buying."
+sidebarTitle: "Upload Component"
+---
+
+## What is the Upload Component?
+
+The Upload Component lets customers **bring their own photo** to your product page, see it framed live, and order with full confidence — before they buy.
+
+| Best for | Customer experience | You configure |
+| --- | --- | --- |
+| Custom framers & print-on-demand businesses | Upload a photo, preview it framed, then buy | Frame styles, mat options, sizing & pricing |
+
+<Info>
+  The Upload Component follows the **same configuration structure** as the Artwork Component. Options, sections, pricing, and conditional rules all work identically. The only difference is a single toggle covered below.
+</Info>
+
+Here is what it looks like on your live store:
+
+![Customer-facing upload product page — showing Upload Your Image button, frame selector, and mat options](/images/upload/upload-preview-window.png)
+
+---
+
+## Artwork Component vs Upload Component
+
+![Templates screen — Upload Component and Artwork Component side by side](/images/upload/upload-component-select.png)
+
+| Situation | Use this |
+| --- | --- |
+| You sell your own artwork or photography | [Artwork Component](/livevue/artwork-component) |
+| Customers frame their own photos | **Upload Component** |
+| Print-on-demand with customer images | **Upload Component** |
+| Mixed store — your art AND customer uploads | Both, on separate products |
+
+---
+
+## Accessing the Upload Component
+
+![Templates screen — Artwork Component and Upload Component cards, Upload Component highlighted with Use button](/images/upload/upload-templates.png)
+
+1. Open the **LIVEARf app** from your Shopify admin
+2. In the left sidebar, click **Templates**
+3. Find the **Upload Component** card and click **Use**
+4. Open the **Basic Configuration** tab
+
+---
+
+## The Key Difference — Image Upload Toggle
+
+This is the **only** thing that separates the Upload Component from the Artwork Component.
+
+![Component header — Component Name, Image Upload toggle ON, Quick Setup Guide highlighted](/images/upload/upload-component-header.png)
+
+| Setting | Upload Component | Artwork Component |
+| --- | --- | --- |
+| **Image Upload toggle** | **ON** by default — customers can upload photos | OFF — artwork is pre-defined by you |
+
+<Warning>
+  Do not turn the Image Upload toggle OFF unless you intentionally want to show only a placeholder image. Without it, customers cannot upload their photo and the component loses its core purpose.
+</Warning>
+
+---
+
+## How Customers Experience It
+
+When a customer lands on a product page using the Upload Component, they follow one of two paths:
+
+<Tabs>
+  <Tab title="Path 1 — Upload First (Primary)">
+    This is the main intended flow:
+
+    1. Customer arrives on the product page
+    2. They click **Upload Your Image** and select a photo from their device
+    3. Their photo appears immediately inside the frame preview
+    4. They adjust size, frame style, and mat options
+    5. The preview updates in real time with their photo inside the chosen frame
+    6. They add to cart and place their order
+
+    ![Upload Component — customer photo loaded, frame swatches and size options visible in the preview panel](/images/upload/upload-customer-preview.png)
+
+    <Check>
+      This path gives customers full confidence in what they are ordering before they buy.
+    </Check>
+  </Tab>
+  <Tab title="Path 2 — Browse First (Optional)">
+    Some customers prefer to explore framing options before committing to a photo:
+
+    1. Customer arrives on the product page
+    2. A **placeholder image** is shown inside the frame on page load
+    3. They browse frame styles and mat options freely
+    4. When ready, they upload their photo — it replaces the placeholder instantly
+    5. They confirm the look and add to cart
+
+    {/* [ gap — screenshot of product page showing placeholder image inside frame before upload ] */}
+
+    <Tip>
+      Set a high-quality placeholder image that shows off your best frame. Customers who browse first are more likely to convert when the frame already looks great with the placeholder.
+    </Tip>
+  </Tab>
+</Tabs>
+
+---
+
+## Configuration
+
+The Upload Component is configured **exactly the same way** as the Artwork Component. Refer to the sections below for full instructions on each part.
+
+![Upload Component — Basic Configuration tab open, options panel on the left, live Preview Product on the right](/images/upload/upload-basic-config.png)
+
+<AccordionGroup>
+  <Accordion title="Component Header Settings">
+    Set the **Component Name**, confirm **Image Upload is ON**, and set **Component Status to ON**.
+
+    → [See Component Header Settings](/livevue/artwork-component#component-header-settings)
+  </Accordion>
+
+  <Accordion title="Options Panel — Shopify & Custom Options">
+    Configure your Shopify-inherited options and the three default custom options — Frames, Mat Size, and Mat Colour.
+
+    → [See Options Panel](/livevue/artwork-component#options-panel)
+  </Accordion>
+
+  <Accordion title="Mat Size & Colour">
+    Configure single or double mat spacing, mat styles, and mat colour swatches.
+
+    → [See Mat Size & Colour](/livevue/artwork-component#mat-size--colour)
+  </Accordion>
+
+  <Accordion title="Pricing">
+    All eight pricing methods — Fixed, Surface Area, Perimeter, and Linear Unit across Standard and Predefined — are available here.
+
+    → [See Pricing](/livevue/artwork-component#pricing)
+  </Accordion>
+
+  <Accordion title="Advanced Configuration — Conditional Rules">
+    Use WHEN / THEN rules to show, hide, or strikeout options based on customer selections.
+
+    → [See Conditional Rules](/livevue/artwork-component#advanced-config--rules)
+  </Accordion>
+</AccordionGroup>
+
+---
+
+## Linking to Products
+
+<Steps>
+  <Step title="Enable the component">
+    Turn **Component Status ON** and save all changes. The Link button only appears once the component is enabled.
+  </Step>
+  <Step title="Open the Link panel">
+    Click **Link** in the top-right corner of the configuration screen.
+
+    {/* [ gap — screenshot of the Link panel showing the three linking options ] */}
+  </Step>
+  <Step title="Choose how to apply it">
+    | Option | What it does |
+    | --- | --- |
+    | **Selected Collections** | All products in chosen Shopify collections |
+    | **Selected Products** | Only individually chosen products |
+    | **All Products (LIVEVUE Template Enabled)** | Every product already using a LIVEVUE template |
+
+    Click **Link** to confirm.
+  </Step>
+  <Step title="Verify">
+    Go to **LIVEARf → Components**. Your component shows the number of linked products with a status of **Active**.
+  </Step>
+</Steps>
+
+---
+
+## Tips for Upload Component Merchants
+
+<Tip>
+  Set a high-quality placeholder image that showcases your best frame. Customers who browse before uploading convert better when the page already looks great.
+</Tip>
+
+<Tip>
+  Use conditional rules to hide frame styles that don't suit certain sizes. This reduces confusion and prevents mismatched orders.
+</Tip>
+
+<Warning>
+  If an order comes through without a customer image attached, follow up immediately via the order notes in Shopify. Always check that the upload step completed before fulfilling.
+</Warning>
+
+---
+
+## What's Next?
+
+<CardGroup cols={2}>
+  <Card title="Frame Generator" icon="frame" href="/livevue/frame-generator">
+    Create 2D and 3D frame visuals from your own frame strip images.
+  </Card>
+
+  <Card title="Artwork Component" icon="image" href="/livevue/artwork-component">
+    Set up framing options for your own pre-made artwork.
+  </Card>
+</CardGroup>
